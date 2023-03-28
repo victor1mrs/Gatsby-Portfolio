@@ -9,6 +9,7 @@
  */
 module.exports = {
   plugins: [
+    'gatsby-transformer-remark',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,6 +32,7 @@ module.exports = {
   siteMetadata: {
     title: 'Portfolio',
     description: 'wev dev portfolio',
-    copyright: 'This wensite is copyright 2022 Portfolio'
+    copyright: 'This wensite is copyright 2022 Portfolio',
+    contact: 'victor1mrs@hotmail.com'
   }
 }

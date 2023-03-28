@@ -15,7 +15,6 @@ const Navbar = () => {
       }
     }
   `)
-  console.log(data)
   const { title } = data.site.siteMetadata;
   return (
     <nav>
